@@ -1,0 +1,37 @@
+@use 'variables';
+
+.header{
+    background: variables.$color-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+    /* logo header */
+    &__logo{
+        width: 70px;
+    }
+
+    // navigation
+    .navigation{
+        display: flex;
+        gap: 20px;
+
+        &__item{
+            transition: .4s ease background;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 2px;
+            cursor: pointer;
+            
+            &:hover{
+                background: rgba($color: #000, $alpha: .3);
+            }
+
+            &--active{
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}

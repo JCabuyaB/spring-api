@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Springboot</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="public/styles.css">
+
+    <!-- script -->
+    <script src="./public/bundle.js" defer type="text/javascript"></script>
+
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="header__logo" src="./img/logo.png" alt="logo">
+
+            <nav class="navigation">
+                <a class="navigation__item navigation__item--active">Inicio</a>
+                <a class="navigation__item">Productos</a>
+                <a class="navigation__item">Contacto</a>
+                <a class="navigation__item">Acceder</a>
+            </nav>
+        </header>
+
+        <section class="featured-products">
+            <h1 class="featured-products__title">Productos destacados</h1>
+            <p class="featured-products__text">Conoce los productos destacados del mes</p>
+
+            <div class="slider-products">
+                <article class="product">
+                    <!-- aesthetics -->
+                    <div class="product__circle-top" role="none"></div>
+                    <h2 class="product__category">Titulo</h2>
+
+                    <figure class="thumb">
+                        <img class="thumb__picture" src="./img/producto.avif" alt="product">
+                        <figcaption class="thumb__title">Producto - 1</figcaption>
+                        <small class="thumb__brand">Marca</small>
+                    </figure>
+
+                    <div class="specs-lists-container">
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-reference">Referencia</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-size">Talla</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-color">Color</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-stock">Existencias</span></li>
+                        </ul>
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-reference-value">: 2X5JG9</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-size-value">: 25</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-color-value">: Rojo</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-stock-value">: 25</span></li>
+                        </ul>
+                    </div>
+                    
+
+                    <!-- aesthetics -->
+                    <div class="product__circle-bottom" role="none"></div>
+                </article>
+                <article class="product">
+                    <!-- aesthetics -->
+                    <div class="product__circle-top" role="none"></div>
+                    <h2 class="product__category">Titulo</h2>
+
+                    <figure class="thumb">
+                        <img class="thumb__picture" src="./img/producto.avif" alt="product">
+                        <figcaption class="thumb__title">Producto - 1</figcaption>
+                        <small class="thumb__brand">Marca</small>
+                    </figure>
+
+                    <div class="specs-lists-container">
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-reference">Referencia</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-size">Talla</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-color">Color</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-stock">Existencias</span></li>
+                        </ul>
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-reference-value">: 2X5JG9</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-size-value">: 25</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-color-value">: Rojo</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-stock-value">: 25</span></li>
+                        </ul>
+                    </div>
+                    
+
+                    <!-- aesthetics -->
+                    <div class="product__circle-bottom" role="none"></div>
+                </article>
+                <article class="product">
+                    <!-- aesthetics -->
+                    <div class="product__circle-top" role="none"></div>
+                    <h2 class="product__category">Titulo</h2>
+
+                    <figure class="thumb">
+                        <img class="thumb__picture" src="./img/producto.avif" alt="product">
+                        <figcaption class="thumb__title">Producto - 1</figcaption>
+                        <small class="thumb__brand">Marca</small>
+                    </figure>
+
+                    <div class="specs-lists-container">
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-reference">Referencia</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-size">Talla</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-color">Color</span></li>
+                            <li class="spec-list__item"><span class="spec-list__name" id="spec-stock">Existencias</span></li>
+                        </ul>
+                        <ul class="spec-list">
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-reference-value">: 2X5JG9</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-size-value">: 25</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-color-value">: Rojo</span></li>
+                            <li class="spec-list__item"><span class="spec-list__value" id="spec-stock-value">: 25</span></li>
+                        </ul>
+                    </div>
+                    
+
+                    <!-- aesthetics -->
+                    <div class="product__circle-bottom" role="none"></div>
+                </article>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+            
+        </footer>
+    </div>
+    
+</body>
+</html>
